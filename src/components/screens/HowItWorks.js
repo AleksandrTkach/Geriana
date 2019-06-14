@@ -3,13 +3,12 @@ import React from 'react';
 import {ROAD_POINTS} from "constants/content";
 
 export default function HowItWorks() {
+
     const points = [];
 
     for (let [index, point] of ROAD_POINTS.entries()) {
-
-
         points.push(
-            <div className="road-points">
+            <div className="road-points" key={`point-${index}`}>
                 <div className="road-points__item">
 
                     <div className="road-points__icon">
