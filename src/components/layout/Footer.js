@@ -21,7 +21,7 @@ export default function Footer() {
     }
 
     return (
-        <section className='footer'>
+        <footer className='footer'>
             <div className='container'>
                 <div className='row'>
 
@@ -42,6 +42,6 @@ export default function Footer() {
 
                 </div>
             </div>
-        </section>
+        </footer>
     )
 }

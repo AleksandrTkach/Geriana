@@ -12,7 +12,6 @@ export default function OurPreferences() {
                 <div className='col-lg-8'>
                     <div className='our-preferences__text'>
                         {preference}
-                        <div className='line'/>
                     </div>
                 </div>
             </div>
