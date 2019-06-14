@@ -2,12 +2,17 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Maven Pro", "Segoe UI", "Roboto", "Oxygen",
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 .screen {
@@ -54,4 +59,51 @@ body {
 .footer {
   height: 320px;
   background: $bg-dark-blue;
+}
+
+
+.top-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__label {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin-bottom: 1.5rem;
+
+    span {
+      font-size: 5rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.pick-out-text {
+  color: $text-blue;
+  font-weight: bold;
+}
+
+.btn {
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  color: white;
+
+  &_lg {
+    padding: 22px 56px;
+    border-radius: 0.3rem;
+  }
+  &_outline {
+    border: 2px solid white;
+  }
+  &_bg-red {
+    background: $bg-red;
+  }
 }
