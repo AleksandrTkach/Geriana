@@ -49,6 +49,18 @@ body {
   height: 100%;
 }
 
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 2px solid white;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .screen {
   min-height: 100vh;
 
