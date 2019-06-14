@@ -100,3 +100,23 @@ export const OUR_PREFERENCES = [
     'Oferujemy usługi dodatkowe: ubezpieczenie i assistance 24h poprzez konsultantów w Help Center oraz rabaty na kursy językowe i szkolenia opiekunów',
     'Pewność kogo zatrudniasz: przeprowadzamy interview pod kątem jezyków obcych, sprawdzamy referencje i ukończone dyplomy. Dodatkowo po każdej pracy wystawiane są opinie, także wybierając opiekuna bazujesz na doświadczeniach innych z wybraną osobą.',
 ];
+
+export const FOOTER_COLUMNS = [
+    {
+        label: 'O portalu',
+        text: `Kim jesteśmy
+               O nas w mediach
+               Zasady i regulaminy`,
+    },
+    {
+        label: 'Współpraca',
+        text: `Zostań naszym partnerem
+               Praca`,
+    },
+    {
+        label: 'Centrum Pomocy',
+        text: `Opiekunowie
+               Poszukujący opieki
+               Kontakt`,
+    },
+];

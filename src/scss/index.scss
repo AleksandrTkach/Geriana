@@ -71,8 +71,6 @@ body {
   }
 
   &__body {
-    //height: 60vh;
-
     &_bg-how-it-works {
       background: $bg-light-blue;
     }
@@ -90,13 +88,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .call-us {
   height: 220px;
-}
-
-.footer {
-  height: 320px;
-  background: $bg-dark-blue;
 }
 
 .top-banner {
@@ -346,6 +340,46 @@ body {
   }
 
   &__description {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  background: $bg-dark-blue;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &__logo {
+    & > img {
+      width: 14rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__follow-us {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    img {
+      height: 30px;
+      width: 30px;
+      margin-left: 13px;
+    }
+  }
+
+  &__copyright {
+    font-size: 0.85rem;
+    color: #a5abae;
+  }
+
+  &__column {
+    &_label {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 3rem;
+    }
   }
 }
