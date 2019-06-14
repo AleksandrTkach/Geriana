@@ -74,7 +74,7 @@ body {
       background: $bg-light-blue;
     }
     &_bg-our-preferences {
-      background: $bg-middle-blue;
+      background-color: $bg-middle-blue;
     }
   }
 }
@@ -309,13 +309,10 @@ body {
 }
 
 .our-preferences {
-
-  &__bg-heart {
-    background-image: url("../img/screens/bg-our-preferences-heart.svg");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 25%;
-  }
+  background-image: url("../img/screens/bg-our-preferences-heart.svg");
+  background-repeat: no-repeat;
+  background-position: 110% 150%;
+  background-size: 700px;
 
   &__text {
     position: relative;
