@@ -18,6 +18,10 @@ body {
 .pick-out-text {
   color: $text-blue;
   font-weight: bold;
+
+  &_underline {
+    text-decoration: underline;
+  }
 }
 
 .btn {
@@ -43,7 +47,7 @@ body {
 }
 
 .screen {
-  height: 100vh;
+  min-height: 100vh;
 
   &_bg-top-banner {
     background: url("../img/screens/bg-top-banner.jpg") no-repeat top / cover;
@@ -76,8 +80,12 @@ body {
 }
 
 .search {
-  height: 220px;
+  height: 80px;
   background: $bg-light;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .call-us {
   height: 220px;
@@ -149,6 +157,7 @@ body {
   }
 }
 
+.our-preferences,
 .how-it-works {
   &__about {
     display: flex;
@@ -279,4 +288,28 @@ body {
   height: 20px;
   width: 50px;
   background: #dff0f0;
+}
+
+.our-preferences {
+
+  &__bg-heart {
+    background-image: url("../img/screens/bg-our-preferences-heart.svg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
+
+  &__text {
+    position: relative;
+    margin-bottom: 2rem;
+
+    .line {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $bg-light-blue;
+      height: 2px;
+      width: 50px;
+    }
+  }
 }

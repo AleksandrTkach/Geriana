@@ -91,3 +91,12 @@ export const RECALLS = [
         type: 'Client',
     },
 ];
+
+export const OUR_PREFERENCES = [
+    '10,000 zarejestrowanych opiekunów czeka na bezpośredni kontakt  z poszukującymi opieki',
+    'Gwarantujemy bezpieczeństwo przelewów pieniężnych oraz zapłatę za pracę, kontrakt reguluje współpracę.',
+    'Nie jesteśmy agencją. Nasza prowizja to jedynie 10% od ceny opieki pobierane od klienta. Dla opiekunek portal jest darmowy.',
+    'Samemu określasz długość płatnego okresu próbnego i okresu wypowiedzenia',
+    'Oferujemy usługi dodatkowe: ubezpieczenie i assistance 24h poprzez konsultantów w Help Center oraz rabaty na kursy językowe i szkolenia opiekunów',
+    'Pewność kogo zatrudniasz: przeprowadzamy interview pod kątem jezyków obcych, sprawdzamy referencje i ukończone dyplomy. Dodatkowo po każdej pracy wystawiane są opinie, także wybierając opiekuna bazujesz na doświadczeniach innych z wybraną osobą.',
+];
