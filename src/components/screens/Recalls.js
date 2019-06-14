@@ -22,7 +22,7 @@ export default function Recalls() {
                                 <div>{recall.type}</div>
                             </div>
                             <img src={recall.img.src} alt={recall.img.alt}/>
-                            <div className='rectangle'/>
+                            {/*<div className='rectangle'/>*/}
                         </div>
 
                     </div>
