@@ -15,6 +15,29 @@ body {
   color: white;
 }
 
+.pick-out-text {
+  color: $text-blue;
+  font-weight: bold;
+}
+
+.btn {
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  color: white;
+
+  &_lg {
+    padding: 22px 56px;
+    border-radius: 0.3rem;
+  }
+  &_outline {
+    border: 2px solid white;
+  }
+  &_bg-red {
+    background: $bg-red;
+  }
+}
+
 .screen {
   height: 100vh;
 
@@ -61,7 +84,6 @@ body {
   background: $bg-dark-blue;
 }
 
-
 .top-banner {
   display: flex;
   flex-direction: column;
@@ -85,25 +107,40 @@ body {
   }
 }
 
-.pick-out-text {
-  color: $text-blue;
-  font-weight: bold;
+
+
+.specialist {
+  color: black;
+  padding-top: 100px ;
+  padding-bottom: 100px ;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__label {
+    font-size: 1.85rem;
+    margin-bottom: 5rem;
+  }
+
+  &__img {
+    height: 120px;
+    margin-bottom: 35px;
+  }
 }
 
-.btn {
-  background: transparent;
-  border: 0;
-  font-weight: bold;
-  color: white;
+.card {
+  font-size: 1.85rem;
 
-  &_lg {
-    padding: 22px 56px;
-    border-radius: 0.3rem;
+  &__label {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+    height: 50px;
   }
-  &_outline {
-    border: 2px solid white;
-  }
-  &_bg-red {
-    background: $bg-red;
+
+  &__description {
+    font-size: 1rem;
   }
 }
