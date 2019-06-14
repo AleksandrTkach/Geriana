@@ -33,7 +33,7 @@ export default function HowItWorks() {
                 <div className="container h-100">
                     <div className="row h-100">
 
-                        <div className="col-lg-6 how-it-works__about h-100">
+                        <div className="col-lg-6 how-it-works__about ">
                             <h3>
                                 Jak Działamy <br/> dla <br/> Poszukujących Opieki
                             </h3>

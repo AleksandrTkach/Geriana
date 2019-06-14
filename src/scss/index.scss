@@ -123,8 +123,8 @@ body {
 
 .specialist {
   color: black;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   display: flex;
   flex-direction: column;
@@ -159,6 +159,9 @@ body {
 
 .our-preferences,
 .how-it-works {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
   &__about {
     display: flex;
     flex-direction: column;
