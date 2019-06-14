@@ -29,10 +29,13 @@ body {
   border: 0;
   font-weight: bold;
   color: white;
+  border-radius: 0.3rem;
 
+  &_md {
+    padding: 0.5rem 1.5rem
+  }
   &_lg {
-    padding: 22px 56px;
-    border-radius: 0.3rem;
+    padding: 1.3rem 3.5rem;
   }
   &_outline {
     border: 2px solid white;
@@ -340,5 +343,9 @@ body {
   &__label {
     font-size: 2.25rem;
     margin-bottom: 0;
+  }
+
+  &__description {
+    margin-bottom: 2.5rem;
   }
 }
