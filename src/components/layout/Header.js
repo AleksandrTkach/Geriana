@@ -20,7 +20,7 @@ export default function Header() {
                             <div>
                                 <img src={logo} alt='geriana'/>
                                 <button className='btn btn_md btn_outline btn_help_center'>
-                                    <i className='fas fa-question-circle'/>
+                                    <i className='fa fa-question-circle'/>
                                     HELP CENTER
                                 </button>
                                 <button className='btn btn_md btn_outline'> CALL US </button>
@@ -30,7 +30,7 @@ export default function Header() {
                                 <div className='link'> Sing Up </div>
                                 <div className='link'> Log in </div>
                                 <div className='link link__menu'>
-                                    <i className='fas fa-bars bars'/>
+                                    <i className='fa fa-bars bars'/>
                                     Menu
                                 </div>
                             </div>
