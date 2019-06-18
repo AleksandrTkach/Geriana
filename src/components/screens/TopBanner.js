@@ -4,8 +4,8 @@ export default function TopBanner() {
     return (
         <section className='screen screen_bg-top-banner top-banner'>
 
-            <h1 className="top-banner__label">
-                <span className="pick-out-text"> Znajdź opiekuna </span>
+            <h1 className='top-banner__label'>
+                <span className='pick-out-text'> Znajdź opiekuna </span>
                 <div> dla swoich najbliższych </div>
             </h1>
 

@@ -6,9 +6,9 @@ export default function Specialists() {
     return (
         <section className='container specialist'>
 
-            <div className="row">
-                <div className="col-12">
-                    <h3 className="specialist__label"> Specjaliści Różnych Kategorii </h3>
+            <div className='row'>
+                <div className='col-12'>
+                    <h3 className='specialist__label'> Specjaliści Różnych Kategorii </h3>
                 </div>
             </div>
 
