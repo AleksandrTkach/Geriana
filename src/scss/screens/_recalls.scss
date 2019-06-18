@@ -1,0 +1,70 @@
+.recalls {
+  color: black;
+  padding-top: 6rem;
+
+  &__label {
+    font-size: 1.85rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+}
+
+.review {
+  margin-bottom: 3rem;
+
+  &__text {
+    position: relative;
+    padding: 2.5rem 1.25rem;
+    background: $bg-light;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      margin-bottom: -20px;
+      border-style: solid;
+      border-width: 0 30px 20px 0;
+      border-color: transparent $bg-light transparent transparent;
+    }
+  }
+  &__user {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      height: 3.125rem;
+      width: 3.125rem;
+      border-radius: 50%;
+      margin-left: 0.625rem;
+    }
+  }
+}
+
+.user__info {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.info {
+  &__name {
+    font-weight: bold;
+  }
+}
+
+.rectangle {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 50px;
+  background: #dff0f0;
+}

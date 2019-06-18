@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background: $bg-dark-blue;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &__logo {
+    & > img {
+      width: 14rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__follow-us {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    img {
+      height: 1.875rem;
+      width: 1.875rem;
+      margin-left: 13px;
+    }
+  }
+
+  &__copyright {
+    font-size: 0.85rem;
+    color: #a5abae;
+  }
+
+  &__column {
+    &_label {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 3rem;
+    }
+  }
+}

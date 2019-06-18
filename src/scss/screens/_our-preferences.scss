@@ -1,0 +1,21 @@
+.our-preferences {
+  background-image: url("../img/screens/bg-our-preferences-heart.svg");
+  background-repeat: no-repeat;
+  background-position: 110% 150%;
+  background-size: 700px;
+
+  &__text {
+    position: relative;
+    margin-bottom: 2rem;
+
+    &:before {
+      content: '';
+      height: 2px;
+      width: 50px;
+      background: $bg-light-blue;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

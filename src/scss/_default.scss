@@ -1,0 +1,92 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Maven Pro", "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  min-width: 480px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.pick-out-text {
+  color: $text-blue;
+  font-weight: bold;
+
+  &_underline {
+    text-decoration: underline;
+  }
+}
+
+#top-menu {
+  z-index: 100;
+}
+
+.btn {
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.3rem;
+
+  &_md {
+    padding: 0.5rem 1.5rem
+  }
+  &_lg {
+    padding: 1.3rem 3.5rem;
+  }
+  &_outline {
+    border: 2px solid white;
+  }
+  &_bg-red {
+    background: $bg-red;
+  }
+}
+
+.link {
+  font-size: 1rem;
+  color: white;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.screen {
+  min-height: 100vh;
+
+  &_bg-top-banner {
+    background: url("../img/screens/bg-top-banner.jpg") no-repeat top / cover;
+  }
+
+  &__header {
+    height: 40vh;
+
+    &_bg-how-it-works {
+      background: url("../img/screens/bg-how-it-works.jpg") no-repeat top / cover;
+    }
+    &_bg-recalls {
+      background: url("../img/screens/bg-recalls.jpg") no-repeat top / cover;
+    }
+    &_bg-our-preferences {
+      background: url("../img/screens/bg-our-preferences.jpg") no-repeat top / cover;
+    }
+  }
+
+  &__body {
+    &_bg-how-it-works {
+      background: $bg-light-blue;
+    }
+    &_bg-our-preferences {
+      background-color: $bg-middle-blue;
+    }
+  }
+}

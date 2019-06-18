@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__nav {
+    button {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header__nav {
+    .link {
+      display: none;
+    }
+  }
+  html {
+    font-size: 10px;
+  }
+}
