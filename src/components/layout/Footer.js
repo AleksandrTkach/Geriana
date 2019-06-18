@@ -13,7 +13,7 @@ export default function Footer() {
 
     for (const [index, column] of FOOTER_COLUMNS.entries()) {
         columns.push(
-            <div className='col-lg-2 footer__column' key={`info-${index}`}>
+            <div className='col-lg-2 col-md-2 col-sm-2 footer__column' key={`info-${index}`}>
                 <div className='footer__column_label'>{ column.label }</div>
                 <div>{ column.text }</div>
             </div>
@@ -25,7 +25,7 @@ export default function Footer() {
             <div className='container'>
                 <div className='row'>
 
-                    <div className='col-lg-5 footer__logo'>
+                    <div className='col-lg-5 col-md-5 col-sm-5 footer__logo'>
                         <img src={logo} alt='geriana'/>
                         <div className='footer__follow-us'>
                             Follow Us
