@@ -30,14 +30,18 @@ export default function HowItWorks() {
                 <div className='container h-100'>
                     <div className='row h-100'>
 
-                        <div className='col-lg-6 how-it-works__about '>
+                        <div className='col-lg-6 how-it-works__about'>
                             <h3>
                                 Jak Działamy <br/> dla <br/> Poszukujących Opieki
                             </h3>
                             <button className='btn btn_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
                         </div>
 
-                        <div className='col-lg-6'>{ points }</div>
+                        <div className='col-lg-6 how-it-works__road'>
+                            <div>
+                                { points }
+                            </div>
+                        </div>
 
                     </div>
                 </div>
