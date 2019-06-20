@@ -27,17 +27,21 @@ export default function HowItWorks() {
             <div className='screen__header screen__header_bg-how-it-works'/>
 
             <div className='screen__body screen__body_bg-how-it-works how-it-works'>
-                <div className='container h-100'>
-                    <div className='row h-100'>
+                <div className='container'>
+                    <div className='row'>
 
-                        <div className='col-lg-6 how-it-works__about '>
+                        <div className='col-lg-6 how-it-works__about'>
                             <h3>
                                 Jak Działamy <br/> dla <br/> Poszukujących Opieki
                             </h3>
                             <button className='btn btn_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
                         </div>
 
-                        <div className='col-lg-6'>{ points }</div>
+                        <div className='col-lg-6 how-it-works__road'>
+                            <div>
+                                { points }
+                            </div>
+                        </div>
 
                     </div>
                 </div>

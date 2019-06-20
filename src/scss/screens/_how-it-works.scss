@@ -1,7 +1,14 @@
+$icon-size: 3rem;
+$item-width: 18.75rem;
+$arrow-with: 11rem;
+$arrow-height: 9rem;
+$description-width: 15rem;
+
 .our-preferences,
 .how-it-works {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  min-height: 60vh;
 
   &__about {
     display: flex;
@@ -10,29 +17,23 @@
     align-items: flex-start;
 
     h3 {
-      font-size: 5rem;
+      font-size: 4.5rem;
       line-height: 6.5rem;
       margin-bottom: 5rem;
     }
+  }
 
-    button {
-      margin-bottom: 5rem;
-    }
+  &__road {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 .road-point{
-  $item-height: 185px;
-  $item-top-padding: 4px;
-  $item-lg-padding: 200px;
-  $item-sm-padding: 180px;
-  $icon-size: 48px;
-
   position: relative;
-  height: $item-height;
-  &:not(:first-of-type){
-    margin-top: -($icon-size/2)+10;
-  }
+
+
   &:last-of-type{
     &:after{
       display: none;
@@ -43,33 +44,30 @@
     content: '';
     display: block;
     position: absolute;
-    top: 20px;
-    width: $item-lg-padding + 80px;
-    height: $item-height;
+    top: 1.2rem;
+    width: $arrow-with;
+    height: $arrow-height;
     background: no-repeat url("../img/how-it-works/arrow.svg");
   }
 
   &:nth-of-type(odd){
-    padding: $item-top-padding $item-lg-padding 0 $item-sm-padding;
     &:after {
-      right: -($icon-size/2) - 10;
+      left: $description-width;
     }
     .road-point__icon{
-      left: $item-sm-padding;
-      margin-left: -$icon-size - 16px;
+      left: -$icon-size - 1;
     }
   }
 
   &:nth-of-type(even){
-    padding: $item-top-padding $item-sm-padding 0 $item-lg-padding;
     text-align: right;
+
     &:after {
-      left: -($icon-size/2) - 10;
+      right: $description-width;
       transform: scaleX(-1);
     }
     .road-point__icon{
-      right: $item-sm-padding;
-      margin-right: -$icon-size - 16px;
+      right: -$icon-size - 1;
     }
   }
 
@@ -83,7 +81,8 @@
     top: 0;
     border-radius: 50%;
     border: 2px dotted white;
-    padding: 8px;
+    padding: 0.5rem;
+
     img{
       display: block;
       width: auto;
@@ -93,4 +92,7 @@
     }
   }
 
+  &__description {
+    max-width: 15rem;
+  }
 }
