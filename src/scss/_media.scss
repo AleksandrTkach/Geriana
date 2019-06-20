@@ -10,6 +10,7 @@
       display: none;
     }
   }
+
   .our-preferences,
   .how-it-works {
     &__about {
@@ -28,17 +29,16 @@
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
   .header__nav {
     .link {
       display: none;
     }
   }
-  .recalls {
-    margin-bottom: 5rem;
-  }
-  html {
-    font-size: 12px;
-  }
+
   .footer {
     padding-top: 3rem;
     padding-bottom: 1rem;
