@@ -27,6 +27,12 @@ $description-width: 15rem;
     justify-content: center;
     align-items: center;
   }
+
+  &__road {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .road-point{
