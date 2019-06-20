@@ -9,7 +9,7 @@ export default function OurPreferences() {
     for (const [index, preference] of OUR_PREFERENCES.entries()) {
         preferences.push(
             <div className='row' key={`preference-${index}`}>
-                <div className='col-lg-8'>
+                <div className='col-lg-8 offset-md-1 col-md-10'>
                     <div className='our-preferences__text'>
                         {preference}
                     </div>
@@ -23,8 +23,8 @@ export default function OurPreferences() {
             <div className='screen__header screen__header_bg-our-preferences'/>
 
             <div className='screen__body screen__body_bg-our-preferences our-preferences'>
-                <div className='container h-100'>
-                    <div className='row h-100'>
+                <div className='container'>
+                    <div className='row'>
 
                         <div className='col-lg-6'>
                             {preferences}

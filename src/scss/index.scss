@@ -3,7 +3,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
 
 @import "default";
-@import "media";
 
 @import "layout/header";
 @import "layout/footer";
@@ -16,3 +15,5 @@
 @import "screens/how-it-works";
 @import "screens/recalls";
 @import "screens/our-preferences";
+
+@import "media";
