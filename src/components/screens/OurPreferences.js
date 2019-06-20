@@ -9,7 +9,7 @@ export default function OurPreferences() {
     for (const [index, preference] of OUR_PREFERENCES.entries()) {
         preferences.push(
             <div className='row' key={`preference-${index}`}>
-                <div className='col-lg-8 offset-md-1 col-md-10'>
+                <div className='offset-lg-0 col-lg-8 offset-md-1 col-md-10'>
                     <div className='our-preferences__text'>
                         {preference}
                     </div>
