@@ -37,6 +37,7 @@ a:hover {
   font-weight: bold;
   color: white;
   border-radius: 0.3rem;
+  transition: 0.25s;
 
   &_md {
     padding: 0.5rem 1.5rem
@@ -46,15 +47,27 @@ a:hover {
   }
   &_outline {
     border: 2px solid white;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
   &_bg-red {
     background: $bg-red;
+
+    &:hover {
+      background: darken($bg-red, 5%);
+    }
   }
 }
 
 .link {
   font-size: 1rem;
   color: white;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .h-100 {
