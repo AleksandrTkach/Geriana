@@ -16,13 +16,12 @@ export default function Recalls() {
                             {recall.text}
                         </div>
 
-                        <div className='review__user'>
-                            <div className='user__info'>
-                                <div className='info__name'>{recall.name}</div>
-                                <div>{recall.type}</div>
+                        <div className='review__user-info'>
+                            <div className='user'>
+                                <div className='user__name'>{recall.name}</div>
+                                <div className='user__type'>{recall.type}</div>
                             </div>
-                            <img src={recall.img.src} alt={recall.img.alt}/>
-                            {/*<div className='rectangle'/>*/}
+                            <img className='user__img' src={recall.img.src} alt={recall.img.alt}/>
                         </div>
 
                     </div>

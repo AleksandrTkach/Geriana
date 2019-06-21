@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {FOOTER_COLUMNS} from 'constants/content';
+import {REACT_APP_NAME} from 'constants/constants';
 
 import logo from 'img/logo.png';
 import FB from 'img/social/fb-icon.svg';
@@ -25,13 +26,13 @@ export default function Footer() {
             <div className='container'>
                 <div className='row'>
 
-                    <div className='col-lg-5 col-md-5 col-sm-5 footer__logo'>
-                        <img src={logo} alt='geriana'/>
+                    <div className='col-lg-5 col-md-5 col-sm-5'>
+                        <img src={logo} alt={REACT_APP_NAME} className='footer__logo'/>
                         <div className='footer__follow-us'>
                             Follow Us
-                            <img src={FB} alt='facebook'/>
-                            <img src={TW} alt='twitter'/>
-                            <img src={IN} alt='in'/>
+                            <img className='footer__follow-us_size' src={FB} alt='facebook'/>
+                            <img className='footer__follow-us_size' src={TW} alt='twitter'/>
+                            <img className='footer__follow-us_size' src={IN} alt='in'/>
                         </div>
                         <span className='footer__copyright'>
                             &copy; 2018 Geriana. All rights reserved.

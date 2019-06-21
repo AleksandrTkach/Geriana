@@ -31,7 +31,7 @@ export default function OurPreferences() {
                         </div>
 
                         <div className='col-lg-6 our-preferences__about'>
-                            <h3>
+                            <h3 className='our-preferences__about__label'>
                                 Nasze Mocne Strony
                             </h3>
                             <button className='btn btn_size_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>

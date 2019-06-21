@@ -14,7 +14,7 @@ export default function Specialists() {
 
             <div className="row specialist__body">
                 {SPECIALISTS.map((specialist, index) => (
-                    <div className="col-md-6 col-lg-3  mb-5 card" key={`${index}-specialist`}>
+                    <div className="col-md-6 col-lg-3 mb-5 card" key={`specialist-${index}`}>
 
                         <div className="specialist__img">
                             <img src={specialist.src} alt={specialist.title} />

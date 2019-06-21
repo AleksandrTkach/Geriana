@@ -32,40 +32,29 @@
       border-color: transparent $bg-light transparent transparent;
     }
   }
-  &__user {
+
+  &__user-info {
     height: 5rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     overflow: hidden;
     position: relative;
-
-    img {
-      height: 3.125rem;
-      width: 3.125rem;
-      border-radius: 50%;
-      margin-left: 0.625rem;
-    }
   }
 }
 
-.user__info {
+.user {
   text-align: right;
   font-size: 1rem;
-}
 
-.info {
   &__name {
     font-weight: bold;
   }
-}
 
-.rectangle {
-  position: absolute;
-  top: 0;
-  right: -20px;
-  transform: rotate(45deg);
-  height: 20px;
-  width: 50px;
-  background: #dff0f0;
+  &__img {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    margin-left: 0.625rem;
+  }
 }

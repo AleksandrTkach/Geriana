@@ -31,7 +31,7 @@ export default function HowItWorks() {
                     <div className='row'>
 
                         <div className='col-lg-6 how-it-works__about'>
-                            <h3>
+                            <h3 className='how-it-works__about__label'>
                                 Jak Działamy <br/> dla <br/> Poszukujących Opieki
                             </h3>
                             <button className='btn btn_size_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>

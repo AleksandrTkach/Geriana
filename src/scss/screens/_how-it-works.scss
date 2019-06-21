@@ -1,10 +1,3 @@
-$icon-size: 3rem;
-$item-width: 18.75rem;
-$arrow-with: 11rem;
-$arrow-height: 9rem;
-$description-width: 15rem;
-
-.our-preferences,
 .how-it-works {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -15,7 +8,7 @@ $description-width: 15rem;
     justify-content: center;
     align-items: flex-start;
 
-    h3 {
+    &__label {
       font-size: 4.5rem;
       line-height: 6.5rem;
       margin-bottom: 5rem;
@@ -27,25 +20,24 @@ $description-width: 15rem;
     justify-content: center;
     align-items: center;
   }
-
-  &__road {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
-.road-point{
+.road-point {
+  $icon-size: 3rem;
+  $item-width: 18.75rem;
+  $arrow-with: 11rem;
+  $arrow-height: 9rem;
+  $description-width: 15rem;
+
   position: relative;
 
-
-  &:last-of-type{
-    &:after{
+  &:last-of-type {
+    &:after {
       display: none;
     }
   }
 
-  &:after{
+  &:after {
     content: '';
     display: block;
     position: absolute;
@@ -55,28 +47,28 @@ $description-width: 15rem;
     background: no-repeat url("../img/how-it-works/arrow.svg");
   }
 
-  &:nth-of-type(odd){
+  &:nth-of-type(odd) {
     &:after {
       left: $description-width;
     }
-    .road-point__icon{
+    .road-point__icon {
       left: -$icon-size - 1;
     }
   }
 
-  &:nth-of-type(even){
+  &:nth-of-type(even) {
     text-align: right;
 
     &:after {
       right: $description-width;
       transform: scaleX(-1);
     }
-    .road-point__icon{
+    .road-point__icon {
       right: -$icon-size - 1;
     }
   }
 
-  &__icon{
+  &__icon {
     position: absolute;
     display: flex;
     align-items: center;
@@ -88,7 +80,7 @@ $description-width: 15rem;
     border: 2px dotted white;
     padding: 0.5rem;
 
-    img{
+    img {
       display: block;
       width: auto;
       height: 100%;

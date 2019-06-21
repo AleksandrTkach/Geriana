@@ -6,17 +6,15 @@
   padding-bottom: 5rem;
 
   &__logo {
-    & > img {
-      width: 14rem;
-      margin-bottom: 2rem;
-    }
+    width: 14rem;
+    margin-bottom: 2rem;
   }
 
   &__follow-us {
     font-size: 1.3rem;
     font-weight: bold;
 
-    img {
+    &_size {
       height: 1.875rem;
       width: 1.875rem;
       margin-left: 13px;
