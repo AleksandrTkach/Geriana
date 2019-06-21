@@ -34,7 +34,7 @@ export default function OurPreferences() {
                             <h3>
                                 Nasze Mocne Strony
                             </h3>
-                            <button className='btn btn_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
+                            <button className='btn btn_size_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
                         </div>
 
                     </div>

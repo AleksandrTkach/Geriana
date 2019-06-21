@@ -1,50 +1,44 @@
 .header {
-  height: 6.25rem;
-  width: 100%;
   position: fixed;
+  width: 100%;
+}
 
-  &__nav {
+.top-menu {
+  height: 6.25rem;
+}
+
+.top-menu-btn {
+  margin-left: 0.625rem;
+  text-transform: uppercase;
+}
+
+.top-menu-logo {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 16.25rem;
+}
+
+.top-menu-block-links {
+  display: flex;
+}
+
+.top-menu-link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  &:last-child {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    img {
-      margin: 0 1rem;
-      width: 16.25rem;
-    }
-
-    .btn {
-      margin-left: 0.625rem;
-      position: relative;
-
-      &_help_center {
-        padding-left: 1rem;
-        i {
-          margin-right: 0.5rem;
-        }
-      }
-    }
-
-    .link {
-      padding: 0 1.25rem;
-
-      .bars {
-        font-size: 1.9rem;
-      }
-    }
   }
 }
 
-.nav__links {
-  display: flex;
-  cursor: pointer;
+.top-menu-link-icon-bars {
+  font-size: 1.9rem;
+  margin-right: 0.5rem;
+}
 
-  div:last-child {
-    display: flex;
-    align-items: center;
-
-    i {
-      margin-right: 0.625rem;
-    }
-  }
+.top-menu-btn-icon-question-circle {
+  margin-right: 0.625rem;
+  font-size: 1.25rem;
+  vertical-align: text-top;
 }

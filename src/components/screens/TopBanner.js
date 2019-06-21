@@ -15,7 +15,7 @@ export default function TopBanner() {
                 <br/> opieklinek
             </p>
 
-            <button className="btn btn_lg btn_bg-red"> ZNAJDŹ OPIEKUNKĘ </button>
+            <button className="btn btn_size_lg btn_bg-red"> ZNAJDŹ OPIEKUNKĘ </button>
 
         </section>
     )

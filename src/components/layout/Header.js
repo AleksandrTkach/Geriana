@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from 'img/logo.png';
+import {REACT_APP_NAME} from 'constants/constants';
 
 export default function Header() {
 
@@ -12,33 +13,34 @@ export default function Header() {
 
     return (
         <header id='top-menu' className='header'>
+
             <nav className='h-100'>
-                <div className='container h-100'>
-                    <div className='row h-100'>
-                        <div className='col-12 header__nav'>
+                <div className='container h-100 d-flex align-items-center justify-content-between top-menu'>
 
-                            <div>
-                                <img src={logo} alt='geriana'/>
-                                <button className='btn btn_md btn_outline btn_help_center'>
-                                    <i className='fa fa-question-circle'/>
-                                    HELP CENTER
-                                </button>
-                                <button className='btn btn_md btn_outline'> CALL US </button>
-                            </div>
+                    <div>
+                        <img src={logo} alt={REACT_APP_NAME} className='top-menu-logo'/>
 
-                            <div className='nav__links'>
-                                <div className='link'> Sing Up </div>
-                                <div className='link'> Log in </div>
-                                <div className='link link__menu'>
-                                    <i className='fa fa-bars bars'/>
-                                    Menu
-                                </div>
-                            </div>
-
-                        </div>
+                        <button className='btn btn_size_md btn_outline top-menu-btn'>
+                            <i className='fa fa-question-circle top-menu-btn-icon-question-circle'/>
+                            Help center
+                        </button>
+                        <button className='btn btn_size_md btn_outline top-menu-btn'>
+                            Call us
+                        </button>
                     </div>
+
+                    <div className='top-menu-block-links'>
+                        <a href='/#/sing-in' className='link top-menu-link'> Sing Up </a>
+                        <a href='/#/log-in' className='link top-menu-link'> Log in </a>
+                        <a href='/#/menu' className='link top-menu-link'>
+                            <i className='fa fa-bars bars top-menu-link-icon-bars'/>
+                            Menu
+                        </a>
+                    </div>
+
                 </div>
             </nav>
+
         </header>
     )
 }

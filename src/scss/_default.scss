@@ -39,12 +39,15 @@ a:hover {
   border-radius: 0.3rem;
   transition: 0.25s;
 
-  &_md {
-    padding: 0.5rem 1.5rem
+  &_size {
+    &_md {
+      padding: 0.5rem 1rem
+    }
+    &_lg {
+      padding: 1.3rem 3.5rem;
+    }
   }
-  &_lg {
-    padding: 1.3rem 3.5rem;
-  }
+
   &_outline {
     border: 2px solid white;
 
@@ -52,6 +55,7 @@ a:hover {
       opacity: 0.8;
     }
   }
+
   &_bg-red {
     background: $bg-red;
 
@@ -100,6 +104,17 @@ a:hover {
     }
     &_bg-our-preferences {
       background-color: $bg-middle-blue;
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+
+  &_icon {
+    &_left {
+      margin-right: 0.625rem;
     }
   }
 }

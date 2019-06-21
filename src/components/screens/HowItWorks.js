@@ -34,7 +34,7 @@ export default function HowItWorks() {
                             <h3>
                                 Jak Działamy <br/> dla <br/> Poszukujących Opieki
                             </h3>
-                            <button className='btn btn_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
+                            <button className='btn btn_size_lg btn_outline'> ZNAJDŹ OPIEKUNKĘ </button>
                         </div>
 
                         <div className='col-lg-6 how-it-works__road'>
