@@ -17,15 +17,6 @@ a:hover {
   color: white;
 }
 
-.pick-out-text {
-  color: $text-blue;
-  font-weight: bold;
-
-  &_underline {
-    text-decoration: underline;
-  }
-}
-
 #top-menu {
   z-index: 100;
   transition: 0.5s;
@@ -66,11 +57,14 @@ a:hover {
 }
 
 .link {
-  font-size: 1rem;
-  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 
-  &:hover {
-    opacity: 0.8;
+  &_icon {
+    &_left {
+      margin-right: 0.625rem;
+    }
   }
 }
 
@@ -108,13 +102,11 @@ a:hover {
   }
 }
 
-.link {
-  text-decoration: none;
-  cursor: pointer;
+.pick-out-text {
+  color: $text-blue;
+  font-weight: bold;
 
-  &_icon {
-    &_left {
-      margin-right: 0.625rem;
-    }
+  &_underline {
+    text-decoration: underline;
   }
 }
