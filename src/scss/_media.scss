@@ -5,26 +5,23 @@
 }
 
 @media (max-width: 992px) {
-  .header__nav {
-    button {
-      display: none;
-    }
+  .top-menu-btn {
+    display: none;
   }
 
   .our-preferences,
   .how-it-works {
     &__about {
       align-items: center;
-    }
-    h3 {
-      text-align: center;
+
+      &__label {
+        text-align: center;
+      }
     }
   }
 
-  .how-it-works {
-    button {
-      margin-bottom: 7rem;
-    }
+  .how-it-works__about__button {
+    margin-bottom: 7rem;
   }
 }
 
@@ -40,17 +37,21 @@
   }
 
   .footer {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 
-    &__logo {
-      margin-bottom: 2rem;
-    }
     &__column {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
+
       &_label {
         margin-bottom: 0;
       }
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .footer__logo {
+    display: none;
   }
 }
