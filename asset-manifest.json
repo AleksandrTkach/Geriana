@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Geriana/static/css/main.3d26dd43.chunk.css",
+    "main.js": "/Geriana/static/js/main.c12854f0.chunk.js",
+    "main.js.map": "/Geriana/static/js/main.c12854f0.chunk.js.map",
+    "runtime~main.js": "/Geriana/static/js/runtime~main.c594e038.js",
+    "runtime~main.js.map": "/Geriana/static/js/runtime~main.c594e038.js.map",
+    "static/js/2.de8a68c4.chunk.js": "/Geriana/static/js/2.de8a68c4.chunk.js",
+    "static/js/2.de8a68c4.chunk.js.map": "/Geriana/static/js/2.de8a68c4.chunk.js.map",
+    "index.html": "/Geriana/index.html",
+    "precache-manifest.385bdca75982ee3539070b3feabca902.js": "/Geriana/precache-manifest.385bdca75982ee3539070b3feabca902.js",
+    "service-worker.js": "/Geriana/service-worker.js",
+    "static/css/main.3d26dd43.chunk.css.map": "/Geriana/static/css/main.3d26dd43.chunk.css.map",
+    "static/media/index.scss": "/Geriana/static/media/bg-top-banner.44e95a20.jpg",
+    "static/media/dollar.svg": "/Geriana/static/media/dollar.cd63cea7.svg",
+    "static/media/fb-icon.svg": "/Geriana/static/media/fb-icon.f02b2fee.svg",
+    "static/media/hourglass.svg": "/Geriana/static/media/hourglass.f6f478e8.svg",
+    "static/media/in-icon.svg": "/Geriana/static/media/in-icon.be280b7b.svg",
+    "static/media/magnifier.svg": "/Geriana/static/media/magnifier.48b4d95f.svg",
+    "static/media/mouse.svg": "/Geriana/static/media/mouse.4ff3171d.svg",
+    "static/media/tw-icon.svg": "/Geriana/static/media/tw-icon.440e6313.svg"
+  }
+}
