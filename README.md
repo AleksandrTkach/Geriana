@@ -8,4 +8,4 @@ $ npm install # Or $ yarn install
 $ npm run start
 ```
 
-###[GitHub Pages]( https://aleksandrtkach.github.io/Geriana/)
+[GitHub Pages]( https://aleksandrtkach.github.io/Geriana/)
