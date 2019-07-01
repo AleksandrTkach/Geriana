@@ -1,0 +1,55 @@
+@import "../../scss/Variables";
+
+.our-preferences {
+  background-image: url("./img/bg-our-preferences-heart.svg");
+  background-repeat: no-repeat;
+  background-position: 110% 150%;
+  background-size: 700px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    &__label {
+      font-size: 4.5rem;
+      line-height: 6.5rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__text {
+    position: relative;
+    margin-bottom: 2rem;
+
+    &:before {
+      content: '';
+      height: 2px;
+      width: 50px;
+      background: $bg-light-blue;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.screen {
+
+  &__header {
+    height: 40vh;
+
+    &_bg-our-preferences {
+      background: url("./img/bg-our-preferences.jpg") no-repeat top / cover;
+    }
+  }
+
+  &__body {
+    &_bg-our-preferences {
+      background-color: $bg-middle-blue;
+    }
+  }
+}

@@ -1,15 +1,15 @@
-import heart from 'img/specialists/heart.png';
-import message from 'img/specialists/massage.png';
-import nurses from 'img/specialists/nurses.png';
-import therapy from 'img/specialists/therapy.png';
+import heart from 'components/specialists/img/heart.png';
+import message from 'components/specialists/img/massage.png';
+import nurses from 'components/specialists/img/nurses.png';
+import therapy from 'components/specialists/img/therapy.png';
 
-import magnifier from 'img/how-it-works/magnifier.svg';
-import mouse from 'img/how-it-works/mouse.svg';
-import hourglass from 'img/how-it-works/hourglass.svg';
-import dollar from 'img/how-it-works/dollar.svg';
+import magnifier from 'components/how-it-works/img/magnifier.svg';
+import mouse from 'components/how-it-works/img/mouse.svg';
+import hourglass from 'components/how-it-works/img/hourglass.svg';
+import dollar from 'components/how-it-works/img/dollar.svg';
 
-import user1 from 'img/users/1.jpg';
-import user2 from 'img/users/2.jpg';
+import user1 from 'components/recalls/img/user1.jpg';
+import user2 from 'components/recalls/img/user2.jpg';
 
 const description = '10,000 zarejestrowanych opiekunów czeka na bezpośredni kontakt z poszukującymi opieki';
 export const SPECIALISTS = [

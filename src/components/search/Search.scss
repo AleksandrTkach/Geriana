@@ -1,0 +1,20 @@
+@import "../../scss/Variables";
+
+.search {
+  background: $bg-light;
+  height: 5rem;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    color: $text-blue;
+    font-weight: bold;
+    text-decoration: underline;
+
+    &:hover {
+      color: $text-blue;
+    }
+  }
+}

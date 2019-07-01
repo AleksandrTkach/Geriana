@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.top-menu {
+  height: 6.25rem;
+}
+
+.top-menu-btn {
+  margin-left: 0.625rem;
+  text-transform: uppercase;
+}
+
+.top-menu-logo {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 16.25rem;
+}
+
+.top-menu-block-links {
+  display: flex;
+  align-items: center;
+}
+
+.top-menu-link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  &:last-child {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.top-menu-link-icon-bars {
+  font-size: 1.9rem;
+  margin-right: 0.5rem;
+}
+
+.top-menu-btn-icon-question-circle {
+  margin-right: 0.625rem;
+  font-size: 1.25rem;
+  vertical-align: text-top;
+}

@@ -1,0 +1,33 @@
+.btn {
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.3rem;
+  transition: 0.25s;
+
+  &_size {
+    &_md {
+      padding: 0.5rem 1rem
+    }
+    &_lg {
+      padding: 1.3rem 3.5rem;
+    }
+  }
+
+  &_outline {
+    border: 2px solid white;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &_bg-red {
+    background: $bg-red;
+
+    &:hover {
+      background: darken($bg-red, 5%);
+    }
+  }
+}

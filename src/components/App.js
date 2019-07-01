@@ -1,14 +1,15 @@
 import React from 'react';
+import '../scss/App.scss';
 
-import TopBanner from 'components/screens/TopBanner';
-import Search from 'components/lines/Search';
-import Specialists from 'components/screens/Specialists';
-import HowItWorks from 'components/screens/HowItWorks';
-import Recalls from 'components/screens/Recalls';
-import OurPreferences from 'components/screens/OurPreferences';
-import CallUs from 'components/lines/CallUs';
-import Footer from 'components/layout/Footer';
-import Header from './layout/Header';
+import TopBanner from 'components/top-banner/TopBanner';
+import Search from 'components/search/Search';
+import Specialists from 'components/specialists/Specialists';
+import HowItWorks from 'components/how-it-works/HowItWorks';
+import Recalls from 'components/recalls/Recalls';
+import OurPreferences from 'components/our-preferences/OurPreferences';
+import CallUs from 'components/call-us/CallUs';
+import Footer from 'components/footer/Footer';
+import Header from 'components/header/Header';
 
 function App() {
   return (
