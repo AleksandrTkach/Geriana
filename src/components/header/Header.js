@@ -33,8 +33,8 @@ export default function Header() {
                             </div>
 
                             <div className='top-menu-block-links'>
-                                <a href='/#/sing-in' className='link top-menu-link'> Sing Up </a>
-                                <a href='/#/log-in' className='link top-menu-link'> Log in </a>
+                                <a href='/#/sing-in' className='link top-menu-link hidden-md'> Sing Up </a>
+                                <a href='/#/log-in' className='link top-menu-link hidden-md'> Log in </a>
                                 <a href='/#/menu' className='link top-menu-link'>
                                     <i className='fa fa-bars bars top-menu-link-icon-bars'/>
                                     Menu

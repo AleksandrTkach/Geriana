@@ -12,10 +12,10 @@
   .our-preferences,
   .how-it-works {
     &__about {
-      align-items: center;
+      align-items: center !important;
 
       &__label {
-        text-align: center;
+        text-align: center !important;
       }
     }
   }
@@ -23,11 +23,20 @@
   .how-it-works__about__button {
     margin-bottom: 7rem;
   }
+
+  .our-preferences {
+    background-size: 600px !important;
+    background-position: 110% 130%;
+  }
 }
 
 @media (max-width: 768px) {
   html {
     font-size: 12px;
+  }
+
+  .hidden-md {
+    display: none;
   }
 
   .header__nav {
@@ -39,6 +48,11 @@
   .footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
+    font-size: 16px;
+
+    &__copyright {
+      font-size: 12px;
+    }
 
     &__column {
       margin-bottom: 1rem;
@@ -48,10 +62,28 @@
       }
     }
   }
+
+  .our-preferences {
+    background-size: 500px !important;
+    background-position: 110% 120%;
+  }
 }
 
 @media (max-width: 575px) {
+  .hidden-md,
+  .hidden-xs {
+    display: none ;
+  }
+
+  .call-us {
+    font-size: 16px;
+  }
+
   .footer__logo {
     display: none;
+  }
+
+  .btn {
+    width: 60% ;
   }
 }
