@@ -13,17 +13,17 @@ import Header from 'components/header/Header';
 
 function App() {
   return (
-    <>
-        <Header/>
-        <TopBanner/>
-        <Search/>
-        <Specialists/>
-        <HowItWorks/>
-        <Recalls/>
-        <OurPreferences/>
-        <CallUs/>
-        <Footer/>
-    </>
+    <div>
+      <Header />
+      <TopBanner />
+      <Search />
+      <Specialists />
+      <HowItWorks />
+      <Recalls />
+      <OurPreferences />
+      <CallUs />
+      <Footer />
+    </div>
   );
 }
 

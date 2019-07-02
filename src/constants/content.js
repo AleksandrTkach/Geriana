@@ -14,21 +14,25 @@ import user2 from 'components/recalls/img/user2.jpg';
 const description = '10,000 zarejestrowanych opiekunów czeka na bezpośredni kontakt z poszukującymi opieki';
 export const SPECIALISTS = [
     {
+        id: 1,
         src: heart,
         title: 'Opiekunowie z doświadczeniem',
         description,
     },
     {
+        id: 2,
         src: message,
         title: 'Masażyści',
         description,
     },
     {
+        id: 3,
         src: nurses,
         title: 'Pielęgniarki i opiekunowie medyczni',
         description,
     },
     {
+        id: 4,
         src: therapy,
         title: 'Fizjoterapeuci',
         description,
