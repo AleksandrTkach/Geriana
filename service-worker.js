@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Geriana/precache-manifest.c6f9b0269096ac0fb52e0bcc2cab9d81.js"
+  "/Geriana/precache-manifest.19a6f46f60d13a98f66954e45f152e92.js"
 );
 
 self.addEventListener('message', (event) => {

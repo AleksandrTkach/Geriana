@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5003e637dd69b351d2b6e1681c64948d",
+    "revision": "866cd8325a1db41d17471570cba35d47",
     "url": "/Geriana/index.html"
   },
   {
-    "revision": "7e3113be0aeffa006fef",
-    "url": "/Geriana/static/css/main.732529bc.chunk.css"
+    "revision": "ba9fa1d551564b36d573",
+    "url": "/Geriana/static/css/main.44958dd7.chunk.css"
   },
   {
-    "revision": "ab5ac00df64b04b6fce3",
-    "url": "/Geriana/static/js/2.de8a68c4.chunk.js"
+    "revision": "16bc3d27d40e7adc8906",
+    "url": "/Geriana/static/js/2.056f3a1f.chunk.js"
   },
   {
-    "revision": "7e3113be0aeffa006fef",
-    "url": "/Geriana/static/js/main.f52212d0.chunk.js"
+    "revision": "ba9fa1d551564b36d573",
+    "url": "/Geriana/static/js/main.96c92d02.chunk.js"
   },
   {
     "revision": "37197cb91b2134976c1d",
